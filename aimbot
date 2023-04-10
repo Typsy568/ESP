@@ -1,6 +1,6 @@
 local plrs = game:GetService("Players")
 local TeamBased = true ; local teambasedswitch = "["
-local presskeytoaim = true; local aimkey = "L"
+local presskeytoaim = true; local aimkey = ";"
 local raycast = false
 
 local espupdatetime = 5; autoesp = false
@@ -119,7 +119,7 @@ local cam = game.Workspace.CurrentCamera
 
 local mouse = lplr:GetMouse()
 local switch = false
-local key = "k"
+local key = "m"
 local aimatpart = nil
 mouse.KeyDown:Connect(function(a)
 	if a == "t" then
