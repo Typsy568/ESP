@@ -1,6 +1,6 @@
 local plrs = game:GetService("Players")
 local TeamBased = true ; local teambasedswitch = "["
-local presskeytoaim = true; local aimkey = "k"
+local presskeytoaim = true; local aimkey = "l"
 local raycast = false
 
 local espupdatetime = 5; autoesp = false
